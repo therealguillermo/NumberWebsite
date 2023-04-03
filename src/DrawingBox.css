@@ -1,0 +1,181 @@
+/* .clear-button {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  }
+  
+  .clear-button:hover {
+    background-color: black;
+    color: white;
+    border-color: white;
+  }
+  
+  .react-select-container {
+    margin-top: 10px;
+  }
+  
+  .react-select__control {
+    border: 2px solid black;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: border-color 0.3s;
+  }
+  
+  .react-select__control:hover {
+    border-color: blue;
+  }
+  
+  .react-select__indicator-separator {
+    display: none;
+  }
+  
+  .react-select__indicator {
+    color: black;
+  }
+  
+  .react-select__menu {
+    margin-top: 0;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .react-select__menu-list {
+    padding: 0;
+  }
+  
+  .react-select__menu-item {
+    padding: 10px 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .react-select__menu-item:hover {
+    background-color: lightgray;
+  } */
+  .drawing-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 16px;
+  }
+  
+  .canvas-container {
+    margin-bottom: 16px;
+  }
+  
+  .buttons-container {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .color-picker {
+    width: 150px;
+    margin-right: 16px;
+  }
+  
+  .clear-button {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    padding: 8px 16px;
+    font-size: 16px;
+    width: 97px;
+    height: 58px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  }
+  
+  .clear-button:hover {
+    background-color: black;
+    color: grey;
+    border-color: white;
+  }
+
+  .toolbar {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .toolbar-item {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .toolbar-brush-slider {
+    display: grid;
+    justify-items: center;
+    margin: auto;
+    text-align: center; /* Add this line to center the text inside the span */
+  }
+  
+  .toolbar-brush-slider span {
+    display: inline-block; /* Add this line to make the span an inline-block element */
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    width: 30px;
+    font-size: 12px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  }
+
+ 
+  .toolbar-slider {
+    width: 150px;
+    height: 10px;
+    -webkit-appearance: none;
+    background: #cacaca; /* set background color */
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+
+
+  .toolbar-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 10px;
+    height: 10px;
+    background: #000000; /* set thumb color */
+    cursor: pointer;
+  }
+  
+  .toolbar-slider::-moz-range-thumb {
+    width: 10px;
+    height: 10px;
+    background: #000000; /* set thumb color */
+    cursor: pointer;
+  }
+
+  .custom-select {
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  }
+  
+  .custom-select:hover {
+    background-color: black;
+    color: grey;
+    border-color: white;
+  }
